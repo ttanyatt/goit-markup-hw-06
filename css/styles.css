@@ -574,7 +574,7 @@ fill: currentColor;
 }
 
 .footer-subscribe {
-    margin-left: 93px;
+    /* margin-left: auto; */
 }
 
 .footer-input {
@@ -714,6 +714,7 @@ fill: currentColor;
 
 .modal {
     position: absolute;
+    padding: 40px;
 
     top: 50%;
     left: 50%;
@@ -747,4 +748,45 @@ fill: currentColor;
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
+}
+
+.modal-title {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+}
+
+.modal-input {
+    margin-bottom: 10px;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+
+}
+
+.modal-input::placeholder {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+
+}
+
+.modal-label { 
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--secondary-text-color);
+
 }
