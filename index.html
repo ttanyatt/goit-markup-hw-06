@@ -428,14 +428,25 @@
         </button>
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
         <form>
-          <label class="modal-label" for="user-name">Имя</label>
-          <input type="text" class="modal-input" name="user-name" id="user-name">
-          <label class="modal-label" for="user-tel">Телефон</label>
-            <input type="text" class="modal-input" name="user-tel" id="user-tel">
-          <label class="modal-label" for="user-email">Почта</label>
-            <input type="text" class="modal-input" name="user-email" id="user-email">
-          <label>Комментарий</label>
-          <input type="text" class="modal-input" placeholder="Введите текст">
+          <div class="modal-field"> 
+            <label class="modal-label" for="user-name">Имя</label>
+            <div class="modal-input-wrap">
+            <input type="text" class="modal-input" name="user-name" id="user-name">
+            <svg class="input-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label class="modal-label" for="user-tel">Телефон</label>
+            <input type="text" class="modal-input" name="user-tel" id="user-tel"></div>
+          <div class="modal-field">
+            <label class="modal-label" for="user-email">Почта</label>
+            <input type="text" class="modal-input" name="user-email" id="user-email"></div>
+          <div class="modal-field"> 
+            <label class="modal-label" for="user-text">Комментарий</label>
+            <textarea class="modal-text" name="user-text" id="user-text" placeholder="Введите текст"></textarea>
+          </div>
           <button type="submit" class="main-btn btn">Отправить</button>
         </form>
       </div>
