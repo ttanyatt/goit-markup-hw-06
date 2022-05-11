@@ -849,8 +849,6 @@ fill: currentColor;
 }
 
 .modal .main-btn {
-    margin-top: 30px;
-    margin-bottom: 40px;
     transition: box-shadow 250ms var(--timing-function);
 }
 
